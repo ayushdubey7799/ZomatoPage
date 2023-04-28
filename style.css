@@ -1,0 +1,223 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+}
+
+#navBar{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(256, 256, 256, 1);
+}
+
+#searchBar{
+    display: flex;
+    width: 40%;
+    border: 1px solid rgb(232,232,232);
+    border-radius: 10px;
+    height: 50px;
+    align-self: center;
+}
+
+#search{
+    border: none;
+    width: 70%;
+    align-self: center;
+    height: 50px;
+}
+
+#location{
+    border: none;
+    width: 30%;
+}
+
+#locImage{
+    height: 40px;
+    align-self: center;
+}
+
+#navImage{
+    width: 10%;
+    height: 30px;
+    align-self: center;
+    margin-right: 20px;
+}
+
+a{
+    width: 15%;
+    font-size: 25px;
+    align-self: center;
+    text-align: center;
+    color: rgb(200,200,200);
+    text-decoration: none;
+    font-weight: inherit;
+    font-family: inherit;
+}
+
+#services{
+    display: flex;
+    justify-content: flex-start;
+    width: 85%;
+    margin: auto;
+    
+    margin-top: 10px;
+}
+
+.service{
+    height: 50px;
+    width: 20%;
+
+    font-size: 25px;
+    align-self: center;
+    padding: 20px;
+}
+
+.service:hover{
+   border-bottom: 2px solid rgb(255,126,139);
+   color: rgb(255,126,139);
+}
+
+hr{
+    margin-top: 0;
+    color: rgb(200,200,200);
+}
+
+#sticky-filters{
+    display: flex;
+    width: 80%;
+    height: 40px;
+    margin: 30px auto;
+    gap: 1rem;
+}
+
+.filter{
+    border: 1px solid rgb(200,200,200);
+    border-radius: 10px;
+    width: 10%;
+    color: rgb(200,200,200);
+    padding-top: 12px;
+    text-align: center;
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    padding: 30px 7rem;
+    
+}
+
+.inspiration{
+    background-color: rgb(248,248,248);
+}
+
+#iHeading{
+    width: 100%;
+    font-size: 2rem ;
+}
+
+#foodImages{
+    display: flex;
+    width: 85%;
+    gap: 3rem;
+}
+
+.ifood{
+    height: 140px;
+    width: 14%;
+}
+
+#restaurants{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 20px auto;
+    gap: 1rem;
+}
+
+.restaurant{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    border: 1px solid rgb(200,200,200);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#rHeading{
+    width: 100%;
+    font-size: 2rem;
+}
+
+.restaurant>img{
+    border: 1px solid black;
+    width: 95%;
+    height: 300px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+#rating,  #pricing{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#footer{
+    margin-top: 30px;
+    background-color: rgb(248,248,248);
+    color: rgb(105,105,105);
+    padding: 30px;
+}
+
+
+.item1{
+    display: flex;
+    gap: 47rem;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.item1>div{
+    display: flex;
+}
+#country, #language{
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.item2{
+    display: flex;
+    gap: 1rem;
+    width: 85%;
+    margin: 0 auto;
+   
+}
+
+.links{
+   width: 25%;
+}
+
+.links>a{
+    display: block;
+    margin-top: 10px; 
+    width: 100%;
+   
+    font-size: 25px;
+}
+
+h4{
+    text-align: center;
+}
+
